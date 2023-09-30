@@ -17,11 +17,6 @@ public class Partida {
         totais = new int[2];
     }
 
-    public cadastrarPontos(){
-        
-
-    }
-
     public int[] somatoriaDosPontos(int[] pontosEquipe1, int[] pontosEquipe2) {
 
         int totalEquipe1 = 0;
