@@ -1,14 +1,25 @@
 package AtividadeUML.Parte2;
 
 public class Partida {
-    String nomeEquipe1;
-    String nomeEquipe2;
+    String nomeEquipe1; // Nome da equipe 1
+    String nomeEquipe2; // Nome da equipe 2
+    int[] pontosEquipe1; // Guardar os pontos do time 1
+    int[] pontosEquipe2; // Guardar pontos do time 2
     int totais[];
+
+    // Construtor da classe
 
     public Partida(String nomeEquipe1, String nomeEquipe2) {
         this.nomeEquipe1 = nomeEquipe1;
         this.nomeEquipe2 = nomeEquipe2;
+        pontosEquipe1 = new int[4];
+        pontosEquipe2 = new int[4];
         totais = new int[2];
+    }
+
+    public cadastrarPontos(){
+        
+
     }
 
     public int[] somatoriaDosPontos(int[] pontosEquipe1, int[] pontosEquipe2) {
